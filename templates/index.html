@@ -2,26 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- Force desktop width on mobile -->
+  <meta name="viewport" content="width=420, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>🕌 Mahdi Chat • Mahadvi313.Ai</title>
 
-  <!-- Inline styles for single-file ease -->
   <style>
     :root{
-      --bg1: #0f172a; /* dark */
-      --bg2: #0b1220; /* darker */
+      --bg1: #0f172a;
+      --bg2: #0b1220;
       --card: #0f172a;
-      --accent1: #7c3aed; /* purple */
-      --accent2: #06b6d4; /* teal */
+      --accent1: #7c3aed;
+      --accent2: #06b6d4;
       --user-bubble: linear-gradient(135deg,#2563eb 0%, #1e40af 100%);
       --bot-bubble: linear-gradient(180deg,#ffffff 0%, #eef2ff 100%);
       --glass: rgba(255,255,255,0.06);
       --muted: #94a3b8;
     }
 
-    /* Page layout */
-    html,body{height:100%;margin:0;font-family:Inter, "Segoe UI", Roboto, system-ui, -apple-system;}
-    body{
+    html, body { height:100%; margin:0; font-family:Inter, "Segoe UI", Roboto, system-ui, -apple-system; }
+    body {
       display:flex;
       align-items:center;
       justify-content:center;
@@ -33,12 +32,19 @@
       padding:28px;
     }
 
-    /* Card */
+    /* horizontal scroll wrapper */
+    .scroll-wrap {
+      width: 100%;
+      overflow-x: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Chat card */
     .chat-wrap{
-      width: 420px;
-      max-width: calc(100% - 40px);
-      height: 82vh;
+      width: 420px; /* desktop width fixed */
       min-height: 520px;
+      height: 82vh;
       background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
       border-radius: 14px;
       box-shadow: 0 10px 30px rgba(2,6,23,0.6);
@@ -48,7 +54,6 @@
       border: 1px solid rgba(255,255,255,0.03);
     }
 
-    /* Header */
     .chat-header{
       display:flex;
       align-items:center;
@@ -69,7 +74,6 @@
     .title h1{margin:0;font-size:16px;color:white;}
     .title p{margin:0;margin-top:4px;font-size:12px;color:var(--muted);}
 
-    /* Chat area */
     .chat-body{
       flex:1;
       padding:18px;
@@ -81,7 +85,6 @@
       scroll-behavior: smooth;
     }
 
-    /* Message bubble base */
     .msg{
       max-width:78%;
       padding:10px 12px;
@@ -92,7 +95,6 @@
       animation: slideUp .28s cubic-bezier(.2,.9,.3,1);
     }
 
-    /* User (right) */
     .msg.user{
       margin-left:auto;
       background: var(--user-bubble);
@@ -102,7 +104,6 @@
       animation-name: popIn;
     }
 
-    /* Bot (left) */
     .msg.bot{
       margin-right:auto;
       background: var(--bot-bubble);
@@ -114,7 +115,6 @@
       animation-name: slideIn;
     }
 
-    /* bot avatar */
     .bot .avatar{
       width:36px;height:36px;border-radius:10px;flex:0 0 36px;
       display:flex;align-items:center;justify-content:center;
@@ -123,13 +123,11 @@
     }
     .bot .content{flex:1;padding-right:6px}
 
-    /* small meta line */
     .meta{
       display:flex;gap:8px;align-items:center;margin-top:8px;font-size:11px;color:var(--muted);
     }
     .meta .source{padding:3px 7px;border-radius:999px;background:rgba(10,12,18,0.03);}
 
-    /* Typing indicator */
     .typing {
       display:flex;gap:6px;align-items:center;padding:8px 12px;border-radius:12px;background:rgba(255,255,255,0.03);
       width:120px;
@@ -141,7 +139,6 @@
     .typing .dot:nth-child(2){animation-delay:0.15s}
     .typing .dot:nth-child(3){animation-delay:0.3s}
 
-    /* Input area */
     .chat-input{
       padding:12px;
       display:flex;
@@ -164,81 +161,73 @@
       width:18px;height:18px;display:inline-block;vertical-align:middle;
     }
 
-    /* Animations */
     @keyframes slideUp { from { opacity:0; transform: translateY(8px); } to { opacity:1; transform:none; } }
     @keyframes popIn { from { transform: scale(.92) translateY(6px); opacity:0 } to { transform:none; opacity:1 } }
     @keyframes slideIn { from { opacity:0; transform: translateX(-12px) } to { opacity:1; transform:none } }
     @keyframes bounce { 0%{transform:translateY(0)} 50%{transform:translateY(-6px)} 100%{transform:translateY(0)} }
 
-    /* timestamp */
     .time{font-size:11px;color:var(--muted);margin-left:6px}
 
-    /* responsive */
-    @media (max-width:480px){
-      .chat-wrap{width:100%;height:100vh;border-radius:0}
-      .chat-header{padding:12px}
-    }
-
+    /* responsive override removed, desktop look preserved */
   </style>
 </head>
 <body>
-  <div class="chat-wrap" role="application">
-    <div class="chat-header">
-      <div class="logo" aria-hidden="true">
-        <!-- stylized mosque / M icon SVG -->
-        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 3l2 3h4l-3 3 1 5-4-2-4 2 1-5L6 6h4l2-3z" fill="white" opacity="0.98"/>
-        </svg>
-      </div>
-      <div class="title">
-        <h1>🕌 Mahdi AI Chatbot</h1>
-        <p>Ask in English / Hindi / Hinglish — only about Imam Mahdi (a.s.)</p>
-      </div>
-    </div>
-
-    <div class="chat-body" id="chatBody" aria-live="polite">
-      <!-- initial bot greeting -->
-      <div class="msg bot" id="welcome">
-        <div class="avatar" aria-hidden="true">
-          <!-- animated geometric avatar -->
-          <svg width="26" height="26" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="g" x1="0" x2="1">
-                <stop offset="0" stop-color="#7c3aed"/>
-                <stop offset="1" stop-color="#06b6d4"/>
-              </linearGradient>
-            </defs>
-            <rect x="10" y="12" width="78" height="76" rx="14" fill="url(#g)">
-              <animate attributeName="y" dur="3s" values="12;8;12" repeatCount="indefinite"/>
-            </rect>
-            <path d="M40 54h20v6H40z" fill="white" opacity="0.92"></path>
+  <div class="scroll-wrap">
+    <div class="chat-wrap" role="application">
+      <!-- chat header, body, input (same as your original HTML) -->
+      <div class="chat-header">
+        <div class="logo" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3l2 3h4l-3 3 1 5-4-2-4 2 1-5L6 6h4l2-3z" fill="white" opacity="0.98"/>
           </svg>
         </div>
-        <div class="content">
-          <div>Hello! السلام عليكم — Ask me anything about Imam Mahdi (a.s.).</div>
-          <div class="meta"><span class="source">Official • Najaf Jafri.313</span><span class="time">11:37 PM</span></div>
+        <div class="title">
+          <h1>🕌 Mahdi AI Chatbot</h1>
+          <p>Ask in English / Hindi / Hinglish — only about Imam Mahdi (a.s.)</p>
         </div>
       </div>
-    </div>
 
-    <div class="chat-input">
-      <div class="input-box">
-        <input id="userInput" type="text" aria-label="Type message" placeholder="Type your question about Imam Mahdi (a.s.)..." />
+      <div class="chat-body" id="chatBody" aria-live="polite">
+        <div class="msg bot" id="welcome">
+          <div class="avatar" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="g" x1="0" x2="1">
+                  <stop offset="0" stop-color="#7c3aed"/>
+                  <stop offset="1" stop-color="#06b6d4"/>
+                </linearGradient>
+              </defs>
+              <rect x="10" y="12" width="78" height="76" rx="14" fill="url(#g)">
+                <animate attributeName="y" dur="3s" values="12;8;12" repeatCount="indefinite"/>
+              </rect>
+              <path d="M40 54h20v6H40z" fill="white" opacity="0.92"></path>
+            </svg>
+          </div>
+          <div class="content">
+            <div>Hello! السلام عليكم — Ask me anything about Imam Mahdi (a.s.).</div>
+            <div class="meta"><span class="source">Official • Najaf Jafri.313</span><span class="time">11:37 PM</span></div>
+          </div>
+        </div>
       </div>
-      <button class="send-btn" id="sendBtn" title="Send (Enter)">
-        <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M2 21l21-9L2 3v7l15 2-15 2v7z" fill="white"/></svg>
-        Send
-      </button>
+
+      <div class="chat-input">
+        <div class="input-box">
+          <input id="userInput" type="text" aria-label="Type message" placeholder="Type your question about Imam Mahdi (a.s.)..." />
+        </div>
+        <button class="send-btn" id="sendBtn" title="Send (Enter)">
+          <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M2 21l21-9L2 3v7l15 2-15 2v7z" fill="white"/></svg>
+          Send
+        </button>
+      </div>
     </div>
   </div>
 
-  <!-- JS: Fetch + animations + typing + timestamps -->
+  <!-- Your JS (same as original, no changes needed) -->
   <script>
     const chatBody = document.getElementById('chatBody');
     const input = document.getElementById('userInput');
     const sendBtn = document.getElementById('sendBtn');
 
-    // helper: format time (12-hour)
     function timeNow(){
       const d=new Date();
       let h=d.getHours(), m=d.getMinutes();
@@ -248,7 +237,6 @@
       return `${h}:${m} ${am}`;
     }
 
-    // create message DOM
     function createMessage(text, who='bot', meta=''){
       const wrapper = document.createElement('div');
       wrapper.className = 'msg ' + who;
@@ -272,7 +260,6 @@
       return wrapper;
     }
 
-    // show typing indicator
     function showTyping(){
       const t = document.createElement('div');
       t.className = 'msg bot typing';
@@ -287,16 +274,13 @@
       if (t) t.remove();
     }
 
-    // send message
     async function sendMessage(){
       const msg = input.value.trim();
       if (!msg) return;
-      // append user bubble
       chatBody.appendChild(createMessage(escapeHtml(msg), 'user'));
       input.value = '';
       chatBody.scrollTop = chatBody.scrollHeight;
 
-      // show typing
       showTyping();
 
       try {
@@ -308,12 +292,10 @@
         const data = await res.json();
         hideTyping();
 
-        // append bot reply with small animation delay
         const botMsg = createMessage(data.reply, 'bot');
         botMsg.style.opacity = '0';
         chatBody.appendChild(botMsg);
         chatBody.scrollTop = chatBody.scrollHeight;
-        // small fade in
         setTimeout(()=>{ botMsg.style.transition='opacity .25s ease, transform .25s ease'; botMsg.style.opacity='1'; }, 30);
       } catch (err){
         hideTyping();
@@ -322,13 +304,11 @@
       }
     }
 
-    // helper to prevent XSS injection for messages
     function escapeHtml(text){
       const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
       return text.replace(/[&<>"']/g, m => map[m]);
     }
 
-    // send on button or Enter
     sendBtn.addEventListener('click', sendMessage);
     input.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' && !e.shiftKey) {
@@ -337,9 +317,7 @@
       }
     });
 
-    // subtle entrance animation for initial elements
     document.addEventListener('DOMContentLoaded', ()=>{
-      // remove default welcome delay
       document.querySelectorAll('.msg').forEach((m, i)=> {
         m.style.opacity=0; m.style.transform='translateY(6px)';
         setTimeout(()=>{ m.style.transition='opacity .35s ease, transform .35s ease'; m.style.opacity=1; m.style.transform='none'; }, 70 + i*80);
