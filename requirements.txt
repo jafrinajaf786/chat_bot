@@ -4,3 +4,7 @@ numpy
 Flask==3.0.3
 gunicorn
 requests
+fuzzywuzzy
+langdetect
+deep_translator
+json
