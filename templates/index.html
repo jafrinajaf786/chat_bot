@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>🕌 Mahdi Chat • Mahadvi313.Ai</title>
+
+  <!-- Inline styles for single-file ease -->
+  <style>
+    :root{
+      --bg1: #0f172a; /* dark */
+      --bg2: #0b1220; /* darker */
+      --card: #0f172a;
+      --accent1: #7c3aed; /* purple */
+      --accent2: #06b6d4; /* teal */
+      --user-bubble: linear-gradient(135deg,#2563eb 0%, #1e40af 100%);
+      --bot-bubble: linear-gradient(180deg,#ffffff 0%, #eef2ff 100%);
+      --glass: rgba(255,255,255,0.06);
+      --muted: #94a3b8;
+    }
+
+    /* Page layout */
+    html,body{height:100%;margin:0;font-family:Inter, "Segoe UI", Roboto, system-ui, -apple-system;}
+    body{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background: radial-gradient(600px 400px at 10% 10%, rgba(124,58,237,0.12), transparent),
+                  radial-gradient(500px 300px at 90% 90%, rgba(6,182,212,0.08), transparent),
+                  linear-gradient(180deg,var(--bg1), var(--bg2));
+      -webkit-font-smoothing:antialiased;
+      color:#e6eef8;
+      padding:28px;
+    }
+
+    /* Card */
+    .chat-wrap{
+      width: 420px;
+      max-width: calc(100% - 40px);
+      height: 82vh;
+      min-height: 520px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(2,6,23,0.6);
+      display:flex;
+      flex-direction:column;
+      overflow:hidden;
+      border: 1px solid rgba(255,255,255,0.03);
+    }
+
+    /* Header */
+    .chat-header{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:14px 16px;
+      background: linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-bottom: 1px solid rgba(255,255,255,0.02);
+    }
+    .logo{
+      width:46px;height:46px;border-radius:12px;
+      background: linear-gradient(135deg,var(--accent1),var(--accent2));
+      display:flex;align-items:center;justify-content:center;
+      box-shadow: 0 6px 18px rgba(8,8,20,0.6), inset 0 -6px 18px rgba(255,255,255,0.06);
+      transform: translateZ(0);
+    }
+    .logo svg{width:28px;height:28px;filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));}
+    .title{flex:1;}
+    .title h1{margin:0;font-size:16px;color:white;}
+    .title p{margin:0;margin-top:4px;font-size:12px;color:var(--muted);}
+
+    /* Chat area */
+    .chat-body{
+      flex:1;
+      padding:18px;
+      overflow-y:auto;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      background-image: linear-gradient(180deg, rgba(255,255,255,0.0008), transparent);
+      scroll-behavior: smooth;
+    }
+
+    /* Message bubble base */
+    .msg{
+      max-width:78%;
+      padding:10px 12px;
+      border-radius:14px;
+      line-height:1.32;
+      box-shadow: 0 6px 18px rgba(9,10,15,0.22);
+      position:relative;
+      animation: slideUp .28s cubic-bezier(.2,.9,.3,1);
+    }
+
+    /* User (right) */
+    .msg.user{
+      margin-left:auto;
+      background: var(--user-bubble);
+      color:#fff;
+      border-bottom-right-radius:6px;
+      transform-origin:100% 100%;
+      animation-name: popIn;
+    }
+
+    /* Bot (left) */
+    .msg.bot{
+      margin-right:auto;
+      background: var(--bot-bubble);
+      color:#0b1220;
+      border-bottom-left-radius:6px;
+      display:flex;
+      gap:10px;
+      align-items:flex-end;
+      animation-name: slideIn;
+    }
+
+    /* bot avatar */
+    .bot .avatar{
+      width:36px;height:36px;border-radius:10px;flex:0 0 36px;
+      display:flex;align-items:center;justify-content:center;
+      background:linear-gradient(135deg,#fff,#f1f5ff);
+      box-shadow: 0 6px 18px rgba(9,10,15,0.12);
+    }
+    .bot .content{flex:1;padding-right:6px}
+
+    /* small meta line */
+    .meta{
+      display:flex;gap:8px;align-items:center;margin-top:8px;font-size:11px;color:var(--muted);
+    }
+    .meta .source{padding:3px 7px;border-radius:999px;background:rgba(10,12,18,0.03);}
+
+    /* Typing indicator */
+    .typing {
+      display:flex;gap:6px;align-items:center;padding:8px 12px;border-radius:12px;background:rgba(255,255,255,0.03);
+      width:120px;
+    }
+    .typing .dot {
+      width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.9);opacity:0.9;
+      animation: bounce 1s infinite;
+    }
+    .typing .dot:nth-child(2){animation-delay:0.15s}
+    .typing .dot:nth-child(3){animation-delay:0.3s}
+
+    /* Input area */
+    .chat-input{
+      padding:12px;
+      display:flex;
+      gap:10px;
+      align-items:center;
+      background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));
+      border-top:1px solid rgba(255,255,255,0.02);
+    }
+    .input-box{
+      flex:1;display:flex;align-items:center;gap:10px;background:rgba(255,255,255,0.03);
+      padding:8px;border-radius:12px;border:1px solid rgba(255,255,255,0.02);
+    }
+    .input-box input{flex:1;background:transparent;border:none;outline:none;padding:8px;color: #e6eef8;font-size:15px}
+    .send-btn{
+      display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:10px;background:linear-gradient(90deg,var(--accent1),var(--accent2));color:white;border:none;cursor:pointer;font-weight:600;
+      box-shadow: 0 6px 18px rgba(124,58,237,0.14);
+    }
+    .send-btn:active{transform:translateY(1px)}
+    .icon{
+      width:18px;height:18px;display:inline-block;vertical-align:middle;
+    }
+
+    /* Animations */
+    @keyframes slideUp { from { opacity:0; transform: translateY(8px); } to { opacity:1; transform:none; } }
+    @keyframes popIn { from { transform: scale(.92) translateY(6px); opacity:0 } to { transform:none; opacity:1 } }
+    @keyframes slideIn { from { opacity:0; transform: translateX(-12px) } to { opacity:1; transform:none } }
+    @keyframes bounce { 0%{transform:translateY(0)} 50%{transform:translateY(-6px)} 100%{transform:translateY(0)} }
+
+    /* timestamp */
+    .time{font-size:11px;color:var(--muted);margin-left:6px}
+
+    /* responsive */
+    @media (max-width:480px){
+      .chat-wrap{width:100%;height:100vh;border-radius:0}
+      .chat-header{padding:12px}
+    }
+
+  </style>
+</head>
+<body>
+  <div class="chat-wrap" role="application">
+    <div class="chat-header">
+      <div class="logo" aria-hidden="true">
+        <!-- stylized mosque / M icon SVG -->
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 3l2 3h4l-3 3 1 5-4-2-4 2 1-5L6 6h4l2-3z" fill="white" opacity="0.98"/>
+        </svg>
+      </div>
+      <div class="title">
+        <h1>🕌 Mahdi AI Chatbot</h1>
+        <p>Ask in English / Hindi / Hinglish — only about Imam Mahdi (a.s.)</p>
+      </div>
+    </div>
+
+    <div class="chat-body" id="chatBody" aria-live="polite">
+      <!-- initial bot greeting -->
+      <div class="msg bot" id="welcome">
+        <div class="avatar" aria-hidden="true">
+          <!-- animated geometric avatar -->
+          <svg width="26" height="26" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1">
+                <stop offset="0" stop-color="#7c3aed"/>
+                <stop offset="1" stop-color="#06b6d4"/>
+              </linearGradient>
+            </defs>
+            <rect x="10" y="12" width="78" height="76" rx="14" fill="url(#g)">
+              <animate attributeName="y" dur="3s" values="12;8;12" repeatCount="indefinite"/>
+            </rect>
+            <path d="M40 54h20v6H40z" fill="white" opacity="0.92"></path>
+          </svg>
+        </div>
+        <div class="content">
+          <div>Hello! السلام عليكم — Ask me anything about Imam Mahdi (a.s.).</div>
+          <div class="meta"><span class="source">Official • Najaf Jafri.313</span><span class="time">11:37 PM</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <div class="input-box">
+        <input id="userInput" type="text" aria-label="Type message" placeholder="Type your question about Imam Mahdi (a.s.)..." />
+      </div>
+      <button class="send-btn" id="sendBtn" title="Send (Enter)">
+        <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M2 21l21-9L2 3v7l15 2-15 2v7z" fill="white"/></svg>
+        Send
+      </button>
+    </div>
+  </div>
+
+  <!-- JS: Fetch + animations + typing + timestamps -->
+  <script>
+    const chatBody = document.getElementById('chatBody');
+    const input = document.getElementById('userInput');
+    const sendBtn = document.getElementById('sendBtn');
+
+    // helper: format time (12-hour)
+    function timeNow(){
+      const d=new Date();
+      let h=d.getHours(), m=d.getMinutes();
+      const am = h>=12?'PM':'AM';
+      h = h%12 || 12;
+      m = m<10? '0'+m : m;
+      return `${h}:${m} ${am}`;
+    }
+
+    // create message DOM
+    function createMessage(text, who='bot', meta=''){
+      const wrapper = document.createElement('div');
+      wrapper.className = 'msg ' + who;
+
+      if (who==='bot'){
+        const avatar = document.createElement('div');
+        avatar.className='avatar';
+        avatar.innerHTML = `<svg width="20" height="20" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <rect x="10" y="12" width="78" height="76" rx="12" fill="white" opacity="0.02"/>
+          <circle cx="50" cy="50" r="18" fill="white" opacity="0.12"/>
+        </svg>`;
+        const content = document.createElement('div');
+        content.className='content';
+        content.innerHTML = `<div>${text}</div>
+                             <div class="meta"><span class="source">Mahadvi313.Ai</span><span class="time">${timeNow()}</span></div>`;
+        wrapper.appendChild(avatar);
+        wrapper.appendChild(content);
+      } else {
+        wrapper.innerHTML = `<div>${text}</div><div class="meta"><span class="time">${timeNow()}</span></div>`;
+      }
+      return wrapper;
+    }
+
+    // show typing indicator
+    function showTyping(){
+      const t = document.createElement('div');
+      t.className = 'msg bot typing';
+      t.id = 'typingIndicator';
+      t.style.marginRight = 'auto';
+      t.innerHTML = `<div style="width:36px"></div><div class="typing"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>`;
+      chatBody.appendChild(t);
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }
+    function hideTyping(){
+      const t = document.getElementById('typingIndicator');
+      if (t) t.remove();
+    }
+
+    // send message
+    async function sendMessage(){
+      const msg = input.value.trim();
+      if (!msg) return;
+      // append user bubble
+      chatBody.appendChild(createMessage(escapeHtml(msg), 'user'));
+      input.value = '';
+      chatBody.scrollTop = chatBody.scrollHeight;
+
+      // show typing
+      showTyping();
+
+      try {
+        const res = await fetch('/get', {
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body: JSON.stringify({message: msg})
+        });
+        const data = await res.json();
+        hideTyping();
+
+        // append bot reply with small animation delay
+        const botMsg = createMessage(data.reply, 'bot');
+        botMsg.style.opacity = '0';
+        chatBody.appendChild(botMsg);
+        chatBody.scrollTop = chatBody.scrollHeight;
+        // small fade in
+        setTimeout(()=>{ botMsg.style.transition='opacity .25s ease, transform .25s ease'; botMsg.style.opacity='1'; }, 30);
+      } catch (err){
+        hideTyping();
+        const errMsg = createMessage('❌ Connection error. Please try again.', 'bot');
+        chatBody.appendChild(errMsg);
+      }
+    }
+
+    // helper to prevent XSS injection for messages
+    function escapeHtml(text){
+      const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
+      return text.replace(/[&<>"']/g, m => map[m]);
+    }
+
+    // send on button or Enter
+    sendBtn.addEventListener('click', sendMessage);
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        sendMessage();
+      }
+    });
+
+    // subtle entrance animation for initial elements
+    document.addEventListener('DOMContentLoaded', ()=>{
+      // remove default welcome delay
+      document.querySelectorAll('.msg').forEach((m, i)=> {
+        m.style.opacity=0; m.style.transform='translateY(6px)';
+        setTimeout(()=>{ m.style.transition='opacity .35s ease, transform .35s ease'; m.style.opacity=1; m.style.transform='none'; }, 70 + i*80);
+      });
+    });
+  </script>
+</body>
+</html>
