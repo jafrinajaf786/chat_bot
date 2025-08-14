@@ -1,0 +1,705 @@
+[
+  
+  {
+    "question": "When was Imam-e-Zamana (a.s.) born?",
+    "category": "Birth and Lineage",
+    "answer_en": "Imam Mahdi (a.s.) was born on 15th Sha'ban, 255 AH in Samarra, Iraq.",
+    "answer_hi": "इमाम महदी (अ.स.) का जन्म 15 शाबान 255 हिजरी में समर्रा, इराक में हुआ था।",
+    "answer_ur": "امام مہدی (ع) 15 شعبان 255 ہجری کو سامرہ، عراق میں پیدا ہوئے۔"
+  },
+  {
+    "question": "Where was Imam Mahdi (a.s.) born?",
+    "category": "Birth and Lineage",
+    "answer_en": "He was born in the city of Samarra in Iraq.",
+    "answer_hi": "वे इराक के समर्रा शहर में पैदा हुए थे।",
+    "answer_ur": "وہ عراق کے شہر سامرہ میں پیدا ہوئے۔"
+  },
+  {
+    "question": "What is the date of birth of Imam Mahdi (a.s.) in Hijri calendar?",
+    "category": "Birth and Lineage",
+    "answer_en": "Imam Mahdi (a.s.) was born on the 15th of Sha'ban in 255 AH (Hijri calendar).",
+    "answer_hi": "इमाम महदी (अ.स.) का जन्म 15 शाबान 255 हिजरी को हुआ।",
+    "answer_ur": "امام مہدی (ع) کی ولادت 15 شعبان 255 ہجری کو ہوئی۔"
+  },
+  {
+    "question": "Who is the father of Imam Mahdi (a.s.)?",
+    "category": "Birth and Lineage",
+    "answer_en": "His father is Imam Hasan al-Askari (a.s.), the 11th Shia Imam.",
+    "answer_hi": "उनके पिता इमाम हसन अल-अस्करी (अ.स.) हैं, जो 11वें शिया इमाम थे।",
+    "answer_ur": "آپ کے والد امام حسن عسکری (ع) ہیں، جو گیارھویں شیعہ امام تھے۔"
+  },
+  {
+    "question": "Who is the mother of Imam Mahdi (a.s.)?",
+    "category": "Birth and Lineage",
+    "answer_en": "His mother was Lady Narjis Khatoon, a noble and pious woman.",
+    "answer_hi": "उनकी माता नारजिस खातून थीं, जो एक पवित्र और सम्मानित महिला थीं।",
+    "answer_ur": "آپ کی والدہ نرجس خاتون تھیں، جو ایک نیک اور باعزت خاتون تھیں۔"
+  },
+  {
+    "question": "What is the full name of Imam-e-Zamana (a.s.)?",
+    "category": "Birth and Lineage",
+    "answer_en": "His full name is Muhammad ibn Hasan al-Mahdi.",
+    "answer_hi": "उनका पूरा नाम मुहम्मद इब्न हसन अल-महदी है।",
+    "answer_ur": "ان کا مکمل نام محمد بن حسن المہدی ہے۔"
+  },
+  {
+    "question": "What are the titles of Imam Mahdi (a.s.)?",
+    "category": "Birth and Lineage",
+    "answer_en": "Some of his titles include Al-Mahdi, Al-Qaim, Sahib az-Zaman, and Baqiyatullah.",
+    "answer_hi": "उनके उपाधियों में अल-महदी, अल-क़ायम, साहिब-अज़-ज़मान और बाक़ियतुल्लाह शामिल हैं।",
+    "answer_ur": "آپ کے القابات میں المہدی، القائم، صاحب الزمان، اور بقیۃ اللہ شامل ہیں۔"
+  },
+  {
+    "question": "What is the lineage of Imam Mahdi (a.s.)?",
+    "category": "Birth and Lineage",
+    "answer_en": "He is a direct descendant of Prophet Muhammad (s.a.w.) through his daughter Fatimah (s.a.) and Imam Ali (a.s.).",
+    "answer_hi": "वे पैगंबर मुहम्मद (स.अ.व.) की बेटी फातिमा (स.अ.) और इमाम अली (अ.स.) की संतति हैं।",
+    "answer_ur": "آپ نبی محمد (ص) کی بیٹی فاطمہ (س) اور امام علی (ع) کی نسل سے ہیں۔"
+  },
+  {
+    "question": "Which Imams are the ancestors of Imam Mahdi (a.s.)?",
+    "category": "Birth and Lineage",
+    "answer_en": "All the previous Imams from Imam Ali (a.s.) to Imam Hasan Askari (a.s.) are his ancestors.",
+    "answer_hi": "इमाम अली (अ.स.) से लेकर इमाम हसन अल-अस्करी (अ.स.) तक सभी इमाम उनके पूर्वज हैं।",
+    "answer_ur": "امام علی (ع) سے لے کر امام حسن عسکری (ع) تک تمام امام ان کے آباؤ اجداد ہیں۔"
+  },
+  {
+    "question": "Is Imam Mahdi (a.s.) the son of Imam Hasan Askari (a.s.)?",
+    "category": "Birth and Lineage",
+    "answer_en": "Yes, Imam Mahdi (a.s.) is the only son of Imam Hasan Askari (a.s.).",
+    "answer_hi": "हाँ, इमाम महदी (अ.स.) इमाम हसन अल-अस्करी (अ.स.) के एकमात्र पुत्र हैं।",
+    "answer_ur": "جی ہاں، امام مہدی (ع) امام حسن عسکری (ع) کے اکلوتے بیٹے ہیں۔"
+  },
+
+  {
+  "question": "How did people know about the birth of Imam Mahdi (a.s.)?",
+  "category": "Birth and Lineage",
+  "answer_en": "The birth of Imam Mahdi (a.s.) was kept hidden due to fear of Abbasid persecution, but close companions of Imam Hasan al-Askari (a.s.) witnessed signs and were informed. Later, trustworthy narrators and scholars confirmed it through reliable reports.",
+  "answer_hi": "इमाम महदी (अ.स.) का जन्म अब्बासी खलीफाओं के डर से छुपाकर रखा गया था, लेकिन इमाम हसन अल-अस्करी (अ.स.) के कुछ भरोसेमंद साथियों ने इसके संकेत देखे और उन्हें जानकारी दी गई थी। बाद में विश्वसनीय रिवायतों और विद्वानों ने उनके जन्म की पुष्टि की।",
+  "answer_ur": "امام مہدی (ع) کی ولادت کو عباسی حکمرانوں کے ظلم کے خوف سے پوشیدہ رکھا گیا، لیکن امام حسن عسکری (ع) کے قریبی ساتھیوں کو اس کی نشانیاں دکھائی گئیں اور انہیں اطلاع دی گئی۔ بعد میں معتبر راویوں اور علما نے اس ولادت کی تصدیق کی۔"
+},
+
+  {
+    "question": "What is Ghaibat in Islam?",
+    "category": "Ghaibat (Occultation)",
+    "answer_en": "Ghaibat refers to the occultation of Imam Mahdi (a.s.), where he is hidden from public view by the will of Allah.",
+    "answer_hi": "ग़ैबत का मतलब है इमाम महदी (अ.स.) का अल्लाह की मर्ज़ी से आम लोगों से छुपा रहना।",
+    "answer_ur": "غیبت کا مطلب ہے کہ امام مہدی (ع) اللہ کے حکم سے عام لوگوں کی نظروں سے پوشیدہ ہیں۔"
+  },
+  {
+    "question": "What is the reason for Imam Mahdi's (a.s.) occultation?",
+    "category": "Ghaibat (Occultation)",
+    "answer_en": "The main reason is to protect the Imam's life and to test the faith of believers until the time of his reappearance.",
+    "answer_hi": "मुख्य कारण इमाम की जान की हिफ़ाज़त और मोमिनों की आस्था की परीक्षा है, जब तक कि वे ज़ाहिर न हों।",
+    "answer_ur": "غیبت کی بنیادی وجہ امام (ع) کی جان کی حفاظت اور مؤمنین کے ایمان کا امتحان ہے، جب تک ان کا ظہور نہ ہو۔"
+  },
+  {
+    "question": "What is minor occultation?",
+    "category": "Ghaibat (Occultation)",
+    "answer_en": "Minor occultation (Ghaibat-e-Sughra) is the initial phase when Imam was hidden but communicated through his four deputies.",
+    "answer_hi": "ग़ैबत-ए-सुग़रा वह चरण था जब इमाम छुपे हुए थे लेकिन चार प्रतिनिधियों के माध्यम से संवाद करते थे।",
+    "answer_ur": "غیبتِ صغریٰ وہ مرحلہ ہے جب امام (ع) پردہ غیبت میں تھے لیکن اپنے چار نائبوں کے ذریعے لوگوں سے رابطے میں تھے۔"
+  },
+  {
+    "question": "What is major occultation?",
+    "category": "Ghaibat (Occultation)",
+    "answer_en": "Major occultation (Ghaibat-e-Kubra) began after the last deputy passed away. Since then, there is no appointed deputy.",
+    "answer_hi": "ग़ैबत-ए-कुबरा तब शुरू हुई जब अंतिम नायब का इंतकाल हो गया और उसके बाद कोई प्रतिनिधि नियुक्त नहीं किया गया।",
+    "answer_ur": "غیبتِ کبریٰ کا آغاز آخری نائب کے انتقال کے بعد ہوا، اس کے بعد کوئی مقرر نائب نہیں رہا۔"
+  },
+  {
+    "question": "How long did the minor occultation last?",
+    "category": "Ghaibat (Occultation)",
+    "answer_en": "The minor occultation lasted for approximately 69 years, from 260 AH to 329 AH.",
+    "answer_hi": "ग़ैबत-ए-सुग़रा लगभग 69 वर्षों तक चली, 260 हिजरी से 329 हिजरी तक।",
+    "answer_ur": "غیبتِ صغریٰ تقریباً 69 سال تک جاری رہی، 260 ہجری سے 329 ہجری تک۔"
+  },
+  {
+    "question": "Who were the deputies of Imam Mahdi (a.s.) during minor occultation?",
+    "category": "Ghaibat (Occultation)",
+    "answer_en": "The four deputies were: 1. Uthman ibn Sa’id, 2. Muhammad ibn Uthman, 3. Husayn ibn Ruh, 4. Ali ibn Muhammad al-Samari.",
+    "answer_hi": "चार नायब थे: 1. उस्मान इब्न सईद, 2. मुहम्मद इब्न उस्मान, 3. हुसैन इब्न रूह, 4. अली इब्न मुहम्मद अल-समरी।",
+    "answer_ur": "چار نائب تھے: 1. عثمان بن سعید، 2. محمد بن عثمان، 3. حسین بن روح، 4. علی بن محمد السمری۔"
+  },
+  {
+    "question": "What is the difference between minor and major occultation?",
+    "category": "Ghaibat (Occultation)",
+    "answer_en": "During minor occultation, Imam communicated through deputies. In major occultation, he is hidden without any deputy.",
+    "answer_hi": "ग़ैबत-ए-सुग़रा में इमाम प्रतिनिधियों के माध्यम से संवाद करते थे, जबकि ग़ैबत-ए-कुबरा में कोई प्रतिनिधि नहीं है।",
+    "answer_ur": "غیبتِ صغریٰ میں امام (ع) نائبوں کے ذریعے رابطے میں تھے، جبکہ غیبتِ کبریٰ میں کوئی نائب نہیں۔"
+  },
+  {
+    "question": "Is Imam Mahdi (a.s.) still alive during occultation?",
+    "category": "Ghaibat (Occultation)",
+    "answer_en": "Yes, he is alive and protected by Allah until his reappearance.",
+    "answer_hi": "हाँ, वे ज़िंदा हैं और अल्लाह की हिफ़ाज़त में हैं जब तक कि वे प्रकट न हो जाएं।",
+    "answer_ur": "جی ہاں، وہ زندہ ہیں اور اللہ کی حفاظت میں ہیں جب تک ان کا ظہور نہ ہو۔"
+  },
+  {
+    "question": "How do we connect with Imam during Ghaibat?",
+    "category": "Ghaibat (Occultation)",
+    "answer_en": "We connect with him through duas, following his teachings, and preparing ourselves spiritually for his return.",
+    "answer_hi": "हम उनसे दुआओं, उनकी शिक्षाओं का पालन करके, और आत्मिक रूप से तैयारी करके जुड़ सकते हैं।",
+    "answer_ur": "ہم ان سے دعاؤں، ان کی تعلیمات پر عمل، اور روحانی تیاری کے ذریعے جُڑ سکتے ہیں۔"
+  },
+  {
+    "question": "What are the benefits of Ghaibat?",
+    "category": "Ghaibat (Occultation)",
+    "answer_en": "It tests the faith of believers, prepares society for justice, and keeps the Imam safe from harm.",
+    "answer_hi": "यह मोमिनों की आस्था की परीक्षा लेता है, समाज को न्याय के लिए तैयार करता है और इमाम की सुरक्षा करता है।",
+    "answer_ur": "یہ مؤمنین کے ایمان کا امتحان لیتا ہے، معاشرے کو عدل کے لیے تیار کرتا ہے اور امام (ع) کو محفوظ رکھتا ہے۔"
+  },
+  {
+    "question": "Did other Prophets also go into occultation?",
+    "category": "Ghaibat (Occultation)",
+    "answer_en": "Yes, many Prophets like Prophet Yusuf (a.s.) and Prophet Musa (a.s.) were hidden from their people for a time.",
+    "answer_hi": "हाँ, कई पैगंबर जैसे हज़रत यूसुफ (अ.स.) और मूसा (अ.स.) भी कुछ समय के लिए अपनी उम्मत से छिपे रहे।",
+    "answer_ur": "جی ہاں، حضرت یوسف (ع) اور حضرت موسیٰ (ع) جیسے کئی انبیاء کچھ وقت کے لیے اپنی قوم سے غائب رہے۔"
+  },
+
+  {
+    "question": "What are the signs of Imam Mahdi's (a.s.) reappearance?",
+    "category": "Signs of Zahoor",
+    "answer_en": "The signs include widespread injustice, rise of Sufyani, appearance of Yamani, a voice from the sky, the murder of a pure soul, and chaos across the world.",
+    "answer_hi": "ज़हूर की निशानियों में अन्याय का फैलना, सुफ्यानी का आना, यमानी का प्रकट होना, आसमान से आवाज़ आना, एक पवित्र आत्मा की हत्या और दुनिया भर में अफरा-तफरी शामिल हैं।",
+    "answer_ur": "ظہور کی نشانیاں ظلم و فساد کا پھیلاؤ، سفیانی کا خروج، یمانی کا ظہور، آسمان سے آواز، نفسِ زکیہ کا قتل، اور دنیا بھر میں افراتفری شامل ہیں۔"
+  },
+  {
+    "question": "Who is Sufyani and what is his role?",
+    "category": "Signs of Zahoor",
+    "answer_en": "Sufyani is a tyrant who will rise before the reappearance of Imam Mahdi (a.s.) and spread corruption. He will be defeated by the Imam.",
+    "answer_hi": "सुफ्यानी एक अत्याचारी होगा जो इमाम महदी (अ.स.) के ज़हूर से पहले उठेगा और फसाद फैलाएगा। उसे इमाम द्वारा पराजित किया जाएगा।",
+    "answer_ur": "سفیانی ایک ظالم ہوگا جو امام مہدی (ع) کے ظہور سے پہلے ظاہر ہو گا اور فساد پھیلائے گا۔ امام (ع) اسے شکست دیں گے۔"
+  },
+  {
+    "question": "What will happen before the reappearance?",
+    "category": "Signs of Zahoor",
+    "answer_en": "There will be widespread oppression, wars, the rise of corrupt leaders, natural disasters, and a yearning among believers for justice.",
+    "answer_hi": "ज़हूर से पहले अत्याचार, युद्ध, भ्रष्ट शासकों का उदय, प्राकृतिक आपदाएं और मोमिनों में न्याय की तड़प देखी जाएगी।",
+    "answer_ur": "ظہور سے قبل دنیا میں ظلم، جنگیں، بدعنوان حکمرانوں کا عروج، قدرتی آفات اور مؤمنین میں عدل کی طلب ہوگی۔"
+  },
+  {
+    "question": "Is there a voice from the sky before Zahoor?",
+    "category": "Signs of Zahoor",
+    "answer_en": "Yes, a heavenly voice from the sky will call people towards the truth and announce the arrival of Imam Mahdi (a.s.).",
+    "answer_hi": "हाँ, आसमान से एक आवाज़ आएगी जो लोगों को हक़ की ओर बुलाएगी और इमाम महदी (अ.स.) के ज़हूर की घोषणा करेगी।",
+    "answer_ur": "جی ہاں، آسمان سے ایک آواز آئے گی جو لوگوں کو حق کی طرف بلائے گی اور امام مہدی (ع) کے ظہور کی خبر دے گی۔"
+  },
+  {
+    "question": "Will there be chaos before the reappearance?",
+    "category": "Signs of Zahoor",
+    "answer_en": "Yes, the world will witness chaos, confusion, and moral decline before the reappearance of the Imam.",
+    "answer_hi": "हाँ, इमाम के ज़हूर से पहले दुनिया में अफरा-तफरी, भ्रम और नैतिक पतन होगा।",
+    "answer_ur": "جی ہاں، امام کے ظہور سے قبل دنیا میں افراتفری، انتشار اور اخلاقی زوال ہوگا۔"
+  },
+  {
+    "question": "Is Dajjal related to the time of Imam Mahdi (a.s.)?",
+    "category": "Signs of Zahoor",
+    "answer_en": "Yes, Dajjal (the deceiver) will appear close to the time of the reappearance, and he will be defeated by Imam Mahdi (a.s.) and Prophet Isa (a.s.).",
+    "answer_hi": "हाँ, दज्जाल का आना इमाम महदी (अ.स.) के ज़हूर के क़रीब होगा और उन्हें इमाम और पैग़ंबर ईसा (अ.स.) हराएंगे।",
+    "answer_ur": "جی ہاں، دجال امام مہدی (ع) کے ظہور کے قریب آئے گا اور امام اور حضرت عیسیٰ (ع) اسے شکست دیں گے۔"
+  },
+  {
+    "question": "What is the role of Yamani in the signs?",
+    "category": "Signs of Zahoor",
+    "answer_en": "Yamani is a righteous leader who will rise to support Imam Mahdi (a.s.) and guide people toward the truth.",
+    "answer_hi": "यमानी एक सच्चा नेता होगा जो इमाम महदी (अ.स.) का साथ देगा और लोगों को सच्चाई की ओर मार्गदर्शन करेगा।",
+    "answer_ur": "یمانی ایک نیک رہنما ہوں گے جو امام مہدی (ع) کی مدد کریں گے اور لوگوں کو حق کی طرف رہنمائی کریں گے۔"
+  },
+  {
+    "question": "Will Imam Mahdi (a.s.) appear in Mecca?",
+    "category": "Signs of Zahoor",
+    "answer_en": "Yes, he will appear in Mecca near the Kaaba and announce his mission from there.",
+    "answer_hi": "हाँ, इमाम महदी (अ.स.) मक्का में काबा के पास प्रकट होंगे और वहीं से अपने मिशन की घोषणा करेंगे।",
+    "answer_ur": "جی ہاں، امام مہدی (ع) مکہ میں کعبہ کے قریب ظاہر ہوں گے اور وہیں سے اپنی دعوت کا اعلان کریں گے۔"
+  },
+  {
+    "question": "Are we living in the time of reappearance?",
+    "category": "Signs of Zahoor",
+    "answer_en": "Many signs indicate that we are close, but the exact time is known only to Allah.",
+    "answer_hi": "कई निशानियाँ दिखाती हैं कि हम निकट हैं, लेकिन ज़हूर का सटीक समय केवल अल्लाह जानता है।",
+    "answer_ur": "بہت سی نشانیاں ظاہر ہو چکی ہیں، لیکن ظہور کا صحیح وقت صرف اللہ کو معلوم ہے۔"
+  },
+  {
+    "question": "Can we know the exact time of Zahoor?",
+    "category": "Signs of Zahoor",
+    "answer_en": "No, only Allah knows the exact time of the reappearance. Believers are asked to stay prepared always.",
+    "answer_hi": "नहीं, ज़हूर का सही समय केवल अल्लाह जानता है। मोमिनों को हमेशा तैयार रहने की हिदायत दी गई है।",
+    "answer_ur": "نہیں، ظہور کا صحیح وقت صرف اللہ کو معلوم ہے۔ مؤمنین کو ہمیشہ تیار رہنے کی ہدایت کی گئی ہے۔"
+  },
+  {
+    "question": "What is the Black Flag and its meaning?",
+    "category": "Signs of Zahoor",
+    "answer_en": "The Black Flags refer to banners raised by supporters of truth from the East who will join Imam Mahdi (a.s.).",
+    "answer_hi": "काले झंडे पूर्व से आने वाले सच्चे समर्थकों का प्रतीक हैं जो इमाम महदी (अ.स.) से जुड़ेंगे।",
+    "answer_ur": "کالے پرچم مشرق سے آنے والے سچے حامیوں کی علامت ہیں جو امام مہدی (ع) سے ملحق ہوں گے۔"
+  },
+
+  {
+    "question": "Which duas should we recite for Imam Mahdi (a.s.)?",
+    "category": "Duas & Spiritual Practices",
+    "answer_en": "Recommended duas include Dua Al-Ahad, Dua Nudba, Ziyarat Aal-e-Yasin, and general prayers for his safety and reappearance.",
+    "answer_hi": "अनुशंसित दुआओं में दुआ अल-अहद, दुआ नुदबा, ज़ियारत आले-यासीन और उनके ज़हूर व सलामती के लिए दुआएं शामिल हैं।",
+    "answer_ur": "تجویز کردہ دعاؤں میں دعائے عہد، دعائے ندبہ، زیارت آل یاسین اور امام (ع) کی سلامتی و ظہور کی دعائیں شامل ہیں۔"
+  },
+  {
+    "question": "What is Dua Al-Ahad?",
+    "category": "Duas & Spiritual Practices",
+    "answer_en": "Dua Al-Ahad is a supplication pledging loyalty to Imam Mahdi (a.s.) and praying to be among his helpers when he reappears.",
+    "answer_hi": "दुआ अल-अहद एक दुआ है जिसमें हम इमाम महदी (अ.स.) से वफ़ादारी का वादा करते हैं और उनके ज़हूर के समय उनके साथ होने की दुआ करते हैं।",
+    "answer_ur": "دعائے عہد ایک دعا ہے جس میں ہم امام مہدی (ع) سے وفاداری کا عہد کرتے ہیں اور ان کے ظہور پر ان کے مددگار بننے کی دعا کرتے ہیں۔"
+  },
+  {
+    "question": "What is Dua Nudba?",
+    "category": "Duas & Spiritual Practices",
+    "answer_en": "Dua Nudba is a heartfelt supplication expressing grief over Imam's occultation and longing for his return.",
+    "answer_hi": "दुआ नुदबा एक भावुक दुआ है जिसमें हम इमाम की ग़ैबत पर दुख व्यक्त करते हैं और उनके ज़हूर की तड़प जाहिर करते हैं।",
+    "answer_ur": "دعائے ندبہ ایک دلی دعا ہے جس میں امام (ع) کی غیبت پر افسوس اور ان کے ظہور کی شدید خواہش ظاہر کی جاتی ہے۔"
+  },
+  {
+    "question": "What is Ziyarat of Imam Mahdi (a.s.)?",
+    "category": "Duas & Spiritual Practices",
+    "answer_en": "Ziyarat refers to salutations and greetings offered to Imam Mahdi (a.s.), such as Ziyarat Aal-e-Yasin, which helps build spiritual connection.",
+    "answer_hi": "ज़ियारत का अर्थ है इमाम महदी (अ.स.) को सलाम पेश करना, जैसे ज़ियारत आले-यासीन, जो एक आत्मिक संबंध बनाता है।",
+    "answer_ur": "زیارت کا مطلب ہے امام مہدی (ع) کو سلام پیش کرنا، جیسے زیارت آل یاسین جو روحانی تعلق مضبوط کرتی ہے۔"
+  },
+  {
+    "question": "When should we recite Dua Al-Ahad?",
+    "category": "Duas & Spiritual Practices",
+    "answer_en": "Dua Al-Ahad is recommended to be recited every morning after Fajr prayer.",
+    "answer_hi": "दुआ अल-अहद को हर सुबह फज्र की नमाज़ के बाद पढ़ना अनुशंसित है।",
+    "answer_ur": "دعائے عہد کو ہر صبح نمازِ فجر کے بعد پڑھنے کی سفارش کی جاتی ہے۔"
+  },
+  {
+    "question": "What is the benefit of praying for his reappearance?",
+    "category": "Duas & Spiritual Practices",
+    "answer_en": "It strengthens our bond with the Imam, purifies the heart, and hastens his reappearance by showing our readiness.",
+    "answer_hi": "यह इमाम से हमारा संबंध मज़बूत करता है, दिल को पाक करता है और हमारी तैयारी दर्शाकर ज़हूर को तेज़ करता है।",
+    "answer_ur": "یہ امام (ع) سے تعلق مضبوط کرتا ہے، دل کو پاک کرتا ہے اور ہماری تیاری ظاہر کر کے ظہور کو قریب لاتا ہے۔"
+  },
+  {
+    "question": "How can I build a connection with Imam during Ghaibat?",
+    "category": "Duas & Spiritual Practices",
+    "answer_en": "Through regular duas, acting righteously, helping others, remembering him daily, and being loyal to his cause.",
+    "answer_hi": "नियमित दुआ, नेक अमल, दूसरों की मदद, रोज़ उनका ज़िक्र करना और उनके मिशन से वफ़ादारी द्वारा।",
+    "answer_ur": "دعاؤں، نیک اعمال، دوسروں کی مدد، روزانہ یاد رکھنے اور امام کے مشن سے وفاداری کے ذریعے۔"
+  },
+  {
+    "question": "Which surahs or ayahs should I recite for him?",
+    "category": "Duas & Spiritual Practices",
+    "answer_en": "Surahs like Al-Fatiha, Al-Ikhlas, and Ayat al-Kursi can be recited for his safety and reappearance.",
+    "answer_hi": "सूरत अल-फातिहा, अल-इखलास और आयतुल कुर्सी उनकी सलामती और ज़हूर के लिए पढ़ी जा सकती हैं।",
+    "answer_ur": "سورۃ الفاتحہ، سورۃ الاخلاص، اور آیت الکرسی امام (ع) کی سلامتی اور ظہور کے لیے پڑھی جا سکتی ہیں۔"
+  },
+  {
+    "question": "What is the role of crying for Imam Mahdi (a.s.)?",
+    "category": "Duas & Spiritual Practices",
+    "answer_en": "Crying shows love, longing, and spiritual connection with Imam and is highly rewarded in Islamic traditions.",
+    "answer_hi": "रोना इमाम से प्रेम, तड़प और आत्मिक संबंध को दर्शाता है और इस्लामी परंपराओं में इसका बड़ा सवाब है।",
+    "answer_ur": "امام (ع) کے لیے رونا محبت، تڑپ اور روحانی تعلق کی علامت ہے اور اس پر بہت اجر ہے۔"
+  },
+  {
+    "question": "What deeds please Imam Mahdi (a.s.)?",
+    "category": "Duas & Spiritual Practices",
+    "answer_en": "Acts like honesty, prayer, charity, helping the oppressed, spreading knowledge, and preparing for his mission please him.",
+    "answer_hi": "ईमानदारी, नमाज़, ख़ैरात, ज़ुल्म के ख़िलाफ़ खड़ा होना, इल्म को फैलाना और उनके मिशन के लिए तैयारी करना उन्हें प्रसन्न करता है।",
+    "answer_ur": "امانت داری، نماز، صدقہ، مظلوموں کی مدد، علم پھیلانا، اور امام (ع) کے مشن کے لیے تیاری کرنا انہیں خوش کرتا ہے۔"
+  },
+  {
+    "question": "How can I spiritually prepare for his reappearance?",
+    "category": "Duas & Spiritual Practices",
+    "answer_en": "By purifying the heart, avoiding sins, helping others, increasing knowledge, and staying sincere in waiting for him.",
+    "answer_hi": "दिल को पाक करना, गुनाहों से बचना, दूसरों की मदद करना, इल्म बढ़ाना और उनके इंतेज़ार में सच्चा रहना।",
+    "answer_ur": "دل کو پاک رکھنا، گناہوں سے بچنا، دوسروں کی مدد کرنا، علم حاصل کرنا، اور سچے دل سے انتظار کرنا۔"
+  },
+
+  {
+    "question": "What will Imam Mahdi (a.s.) do after reappearance?",
+    "category": "Life After Reappearance",
+    "answer_en": "He will establish justice, remove tyranny, guide humanity towards truth, and revive the true teachings of Islam.",
+    "answer_hi": "वे इंसाफ क़ायम करेंगे, ज़ुल्म को खत्म करेंगे, इंसानियत को हक़ की राह पर चलाएंगे और इस्लाम की असल तालीमात को ज़िंदा करेंगे।",
+    "answer_ur": "وہ عدل قائم کریں گے، ظلم کو ختم کریں گے، انسانیت کو حق کی طرف رہنمائی دیں گے، اور اسلام کی اصل تعلیمات کو زندہ کریں گے۔"
+  },
+  {
+    "question": "Will he establish a global government?",
+    "category": "Life After Reappearance",
+    "answer_en": "Yes, Imam Mahdi (a.s.) will form a divine global government based on justice, peace, and truth.",
+    "answer_hi": "हाँ, इमाम महदी (अ.स.) इंसाफ, अमन और सच्चाई पर आधारित एक वैश्विक हुकूमत क़ायम करेंगे।",
+    "answer_ur": "جی ہاں، امام مہدی (ع) عدل، امن اور سچائی پر مبنی عالمی حکومت قائم کریں گے۔"
+  },
+  {
+    "question": "Will he bring justice to the world?",
+    "category": "Life After Reappearance",
+    "answer_en": "Yes, he will fill the world with justice and equity as it would be filled with oppression and injustice before.",
+    "answer_hi": "हाँ, वे दुनिया को इंसाफ़ और बराबरी से भर देंगे जैसे पहले वह ज़ुल्म से भरी हुई थी।",
+    "answer_ur": "جی ہاں، وہ دنیا کو عدل و انصاف سے بھر دیں گے جیسے وہ پہلے ظلم سے بھری ہوئی ہوگی۔"
+  },
+  {
+    "question": "How long will he rule?",
+    "category": "Life After Reappearance",
+    "answer_en": "According to traditions, Imam Mahdi (a.s.) will rule for several decades — some narrations mention 7, 19, 40, or more years.",
+    "answer_hi": "रिवायतों के अनुसार, इमाम कई दशकों तक हुकूमत करेंगे — कुछ में 7, 19, 40 या उससे अधिक वर्षों का ज़िक्र है।",
+    "answer_ur": "روایات کے مطابق، امام (ع) کئی دہائیوں تک حکومت کریں گے — بعض میں 7، 19، 40 یا اس سے زیادہ سال کا ذکر ہے۔"
+  },
+  {
+    "question": "What will happen to corrupt rulers?",
+    "category": "Life After Reappearance",
+    "answer_en": "They will be removed and held accountable. Imam will establish justice over tyranny.",
+    "answer_hi": "भ्रष्ट शासकों को हटाया जाएगा और उनका हिसाब लिया जाएगा। इमाम ज़ुल्म के बदले इंसाफ़ क़ायम करेंगे।",
+    "answer_ur": "بدعنوان حکمرانوں کو ہٹایا جائے گا اور ان کا محاسبہ ہوگا۔ امام (ع) ظلم کے مقابلے میں عدل قائم کریں گے۔"
+  },
+  {
+    "question": "Will he judge using divine knowledge?",
+    "category": "Life After Reappearance",
+    "answer_en": "Yes, Imam Mahdi (a.s.) will judge with divine insight, ensuring fairness and truth in every matter.",
+    "answer_hi": "हाँ, वे अल्लाही इल्हाम और ज्ञान से फ़ैसला करेंगे, ताकि हर मसले में इंसाफ़ और सच्चाई रहे।",
+    "answer_ur": "جی ہاں، امام (ع) الٰہی علم کی روشنی میں فیصلے کریں گے تاکہ ہر معاملے میں انصاف ہو۔"
+  },
+  {
+    "question": "What changes will he make to society?",
+    "category": "Life After Reappearance",
+    "answer_en": "He will end injustice, promote moral values, eliminate poverty, educate all, and unite humanity under truth.",
+    "answer_hi": "वे अन्याय को खत्म करेंगे, नैतिक मूल्यों को बढ़ावा देंगे, ग़रीबी मिटाएंगे, तालीम को आम करेंगे और इंसानियत को हक़ के नीचे एक करेंगे।",
+    "answer_ur": "وہ ظلم کا خاتمہ کریں گے، اخلاقی اقدار کو فروغ دیں گے، غربت مٹائیں گے، تعلیم عام کریں گے اور انسانیت کو حق پر جمع کریں گے۔"
+  },
+  {
+    "question": "Will all religions unite under him?",
+    "category": "Life After Reappearance",
+    "answer_en": "Yes, Imam Mahdi (a.s.) will unite all sincere people under the banner of truth, regardless of religion.",
+    "answer_hi": "हाँ, इमाम महदी (अ.स.) सभी सच्चे लोगों को मज़हब से परे हक़ की छतरी के नीचे एकजुट करेंगे।",
+    "answer_ur": "جی ہاں، امام مہدی (ع) تمام مخلص انسانوں کو مذہب سے بالاتر ہو کر حق پر متحد کریں گے۔"
+  },
+  {
+    "question": "What will happen to tyrants?",
+    "category": "Life After Reappearance",
+    "answer_en": "Tyrants will be removed, punished, and replaced with just leadership to ensure global peace and equity.",
+    "answer_hi": "ज़ालिमों को हटाया जाएगा, उन्हें सज़ा दी जाएगी और न्यायप्रिय नेतृत्व से दुनिया में अमन और बराबरी लायी जाएगी।",
+    "answer_ur": "ظالموں کو ہٹایا جائے گا، انہیں سزا دی جائے گی، اور عادل قیادت کے ذریعے دنیا میں امن و عدل قائم کیا جائے گا۔"
+  },
+  {
+    "question": "Will the world be at peace?",
+    "category": "Life After Reappearance",
+    "answer_en": "Yes, under his leadership, the world will experience true peace, justice, and spiritual awakening.",
+    "answer_hi": "हाँ, उनके नेतृत्व में दुनिया सच्चे अमन, इंसाफ़ और रूहानी जागरूकता का अनुभव करेगी।",
+    "answer_ur": "جی ہاں، ان کی قیادت میں دنیا حقیقی امن، عدل اور روحانی بیداری کا تجربہ کرے گی۔"
+  },
+  {
+    "question": "Will Imam Mahdi (a.s.) rebuild holy places?",
+    "category": "Life After Reappearance",
+    "answer_en": "Yes, he will restore and honor the sanctity of holy sites and revive their spiritual significance.",
+    "answer_hi": "हाँ, वे मुक़द्दस स्थलों का पुनर्निर्माण करेंगे और उनकी रूहानियत को फिर से ज़िंदा करेंगे।",
+    "answer_ur": "جی ہاں، وہ مقدس مقامات کی تعمیر نو کریں گے اور ان کی روحانیت کو بحال کریں گے۔"
+  },
+
+  {
+    "question": "Who will be in the army of Imam Mahdi (a.s.)?",
+    "category": "His Army & Role of Believers",
+    "answer_en": "His army will consist of sincere, pious, and courageous individuals from around the world, chosen by Allah.",
+    "answer_hi": "उनकी फ़ौज में दुनिया भर के सच्चे, परहेज़गार और बहादुर लोग होंगे जिन्हें अल्लाह चुनेगा।",
+    "answer_ur": "ان کی فوج میں دنیا بھر کے مخلص، پرہیزگار اور بہادر افراد ہوں گے جنہیں اللہ منتخب کرے گا۔"
+  },
+  {
+    "question": "How can I join his army?",
+    "category": "His Army & Role of Believers",
+    "answer_en": "By staying righteous, praying for his reappearance, and being spiritually and mentally prepared to serve truth.",
+    "answer_hi": "नेक बने रहकर, उनके ज़हूर के लिए दुआ करके और हक़ की ख़िदमत के लिए आत्मिक और मानसिक रूप से तैयार रहकर।",
+    "answer_ur": "نیکی پر قائم رہ کر، ان کے ظہور کے لیے دعا کر کے، اور حق کی خدمت کے لیے روحانی و ذہنی طور پر تیار رہ کر۔"
+  },
+  {
+    "question": "What are the signs of true believers?",
+    "category": "His Army & Role of Believers",
+    "answer_en": "Truthfulness, patience, loyalty to Ahlulbayt (a.s.), helping the oppressed, and longing for Imam's return.",
+    "answer_hi": "सच्चाई, सब्र, अहलुलबैत (अ.स.) से वफ़ादारी, मज़लूमों की मदद और इमाम के ज़हूर की तड़प।",
+    "answer_ur": "سچائی، صبر، اہل بیت (ع) سے وفاداری، مظلوموں کی مدد، اور امام (ع) کے ظہور کی خواہش۔"
+  },
+  {
+    "question": "Will women be in the army of Imam Mahdi (a.s.)?",
+    "category": "His Army & Role of Believers",
+    "answer_en": "Yes, women will also be part of his army, playing roles in education, healing, and spiritual support.",
+    "answer_hi": "हाँ, महिलाएँ भी उनकी फ़ौज का हिस्सा होंगी और शिक्षा, इलाज और रूहानी सहायता में भूमिका निभाएंगी।",
+    "answer_ur": "جی ہاں، خواتین بھی ان کی فوج کا حصہ ہوں گی اور تعلیم، علاج اور روحانی معاونت میں کردار ادا کریں گی۔"
+  },
+  {
+    "question": "What are the qualities of Imam’s companions?",
+    "category": "His Army & Role of Believers",
+    "answer_en": "They will be brave, God-conscious, loyal, disciplined, knowledgeable, and completely obedient to the Imam.",
+    "answer_hi": "वे बहादुर, अल्लाह से डरने वाले, वफ़ादार, अनुशासित, ज्ञानी और इमाम के पूरी तरह आज्ञाकारी होंगे।",
+    "answer_ur": "وہ بہادر، متقی، وفادار، منظم، باعلم اور امام (ع) کے مکمل اطاعت گزار ہوں گے۔"
+  },
+  {
+    "question": "Will Imam Mahdi (a.s.) call his followers?",
+    "category": "His Army & Role of Believers",
+    "answer_en": "Yes, a universal call will be made inviting his true followers to join him from wherever they are.",
+    "answer_hi": "हाँ, एक सार्वभौमिक आवाज़ दी जाएगी जिससे उनके सच्चे अनुयायी जहाँ भी हों, शामिल हो सकें।",
+    "answer_ur": "جی ہاں، ایک عالمی آواز دی جائے گی جو ان کے مخلص ماننے والوں کو جہاں کہیں بھی ہوں، دعوت دے گی۔"
+  },
+  {
+    "question": "How should I prepare to serve Imam Mahdi (a.s.)?",
+    "category": "His Army & Role of Believers",
+    "answer_en": "By gaining knowledge, purifying the soul, staying active in good deeds, and praying for readiness to serve.",
+    "answer_hi": "ज्ञान प्राप्त करके, आत्मा को पाक बनाकर, अच्छे कामों में लगे रहकर और उनकी सेवा के लिए तैयार रहने की दुआ से।",
+    "answer_ur": "علم حاصل کر کے، نفس کو پاک کر کے، نیک اعمال میں مصروف رہ کر، اور خدمت کے لیے تیار ہونے کی دعا کے ذریعے۔"
+  },
+  {
+    "question": "Will youth play a role in his mission?",
+    "category": "His Army & Role of Believers",
+    "answer_en": "Yes, the youth will play a vital role as they will bring energy, dedication, and passion to his movement.",
+    "answer_hi": "हाँ, युवा अहम भूमिका निभाएंगे क्योंकि वे जोश, लगन और ऊर्जा लेकर आएंगे।",
+    "answer_ur": "جی ہاں، نوجوان اہم کردار ادا کریں گے کیونکہ وہ جوش، اخلاص اور توانائی کے ساتھ امام کے مشن میں شامل ہوں گے۔"
+  },
+  {
+    "question": "How many soldiers will be in his army?",
+    "category": "His Army & Role of Believers",
+    "answer_en": "According to narrations, Imam Mahdi (a.s.) will be joined initially by 313 special companions, and later by thousands.",
+    "answer_hi": "रिवायतों के अनुसार, इमाम (अ.स.) के साथ शुरुआत में 313 खास साथी होंगे, फिर हज़ारों शामिल होंगे।",
+    "answer_ur": "روایات کے مطابق، امام (ع) کے ساتھ ابتدائی طور پر 313 خاص افراد ہوں گے، اور بعد میں ہزاروں شامل ہوں گے۔"
+  },
+  {
+    "question": "What is the significance of loyalty to Imam?",
+    "category": "His Army & Role of Believers",
+    "answer_en": "Loyalty ensures steadfastness in trials and aligns one with the divine mission of truth and justice.",
+    "answer_hi": "वफ़ादारी इम्तिहानों में अडिग रहने को सुनिश्चित करती है और आपको हक़ और इंसाफ़ के इलाही मिशन से जोड़ती है।",
+    "answer_ur": "وفاداری آزمائشوں میں ثابت قدمی کو یقینی بناتی ہے اور انسان کو حق و عدل کے الٰہی مشن سے جوڑتی ہے۔"
+  },
+  {
+    "question": "What happens to those who oppose him?",
+    "category": "His Army & Role of Believers",
+    "answer_en": "Those who knowingly oppose Imam Mahdi (a.s.) will face divine justice for resisting truth and spreading corruption.",
+    "answer_hi": "जो लोग जानबूझकर इमाम (अ.स.) का विरोध करेंगे उन्हें हक़ के विरोध और फसाद फैलाने की सज़ा मिलेगी।",
+    "answer_ur": "جو لوگ جان بوجھ کر امام (ع) کی مخالفت کریں گے، وہ حق کی مخالفت اور فساد کے بدلے میں سزا پائیں گے۔"
+  },
+
+  {
+    "question": "Can technology help Imam Mahdi's (a.s.) mission?",
+    "category": "Technology & Today’s World",
+    "answer_en": "Yes, technology can help spread his message, unite believers, and prepare the world for justice and truth.",
+    "answer_hi": "हाँ, तकनीक उनके पैग़ाम को फैलाने, मोमिनों को एकजुट करने और दुनिया को इंसाफ़ व हक़ के लिए तैयार करने में मदद कर सकती है।",
+    "answer_ur": "جی ہاں، ٹیکنالوجی امام (ع) کے پیغام کو پھیلانے، مؤمنین کو متحد کرنے، اور دنیا کو عدل و حق کے لیے تیار کرنے میں مدد دے سکتی ہے۔"
+  },
+  {
+    "question": "Will he use the internet and AI?",
+    "category": "Technology & Today’s World",
+    "answer_en": "While specific methods are not mentioned, Imam’s mission will benefit from any tool that serves truth, including internet and AI.",
+    "answer_hi": "हालाँकि विशेष तरीके वर्णित नहीं हैं, लेकिन उनका मिशन हर उस चीज़ से फ़ायदा उठाएगा जो हक़ की सेवा करे, जैसे इंटरनेट और एआई।",
+    "answer_ur": "اگرچہ مخصوص طریقے بیان نہیں ہوئے، لیکن امام (ع) کا مشن ان تمام ذرائع سے فائدہ اٹھائے گا جو حق کی خدمت کریں، جیسے انٹرنیٹ اور اے آئی۔"
+  },
+  {
+    "question": "How can we use social media to support Imam?",
+    "category": "Technology & Today’s World",
+    "answer_en": "By spreading authentic knowledge, countering misinformation, and promoting justice, unity, and spirituality in Imam's name.",
+    "answer_hi": "सही जानकारी फैलाकर, ग़लतफ़हमियों को दूर करके, और इमाम के नाम पर इंसाफ़, एकता और रूहानियत को बढ़ावा देकर।",
+    "answer_ur": "درست علم پھیلا کر، غلط فہمیوں کا ازالہ کر کے، اور امام (ع) کے نام پر عدل، اتحاد اور روحانیت کو فروغ دے کر۔"
+  },
+  {
+    "question": "Can online platforms spread his message?",
+    "category": "Technology & Today’s World",
+    "answer_en": "Yes, platforms like websites, apps, and social media can reach global audiences with Imam’s teachings and values.",
+    "answer_hi": "हाँ, वेबसाइट्स, ऐप्स और सोशल मीडिया जैसे प्लेटफ़ॉर्म इमाम की शिक्षाओं को दुनियाभर में पहुँचा सकते हैं।",
+    "answer_ur": "جی ہاں، ویب سائٹس، ایپس اور سوشل میڈیا جیسے پلیٹ فارم امام (ع) کی تعلیمات کو دنیا بھر میں پہنچا سکتے ہیں۔"
+  },
+  {
+    "question": "Is it okay to make apps or websites for Imam Mahdi (a.s.)?",
+    "category": "Technology & Today’s World",
+    "answer_en": "Yes, creating digital tools that educate and inspire toward Imam’s mission is a noble act if done respectfully.",
+    "answer_hi": "हाँ, अगर सम्मानपूर्वक किया जाए तो इमाम के मिशन के लिए ऐप्स और वेबसाइट्स बनाना एक नेक काम है।",
+    "answer_ur": "جی ہاں، اگر ادب و احترام کے ساتھ ہو تو امام (ع) کے مشن کے لیے ایپس اور ویب سائٹس بنانا نیک عمل ہے۔"
+  },
+  {
+    "question": "How should youth use technology in Imam's service?",
+    "category": "Technology & Today’s World",
+    "answer_en": "By using skills in media, coding, design, and communication to create content that inspires love, knowledge, and action for Imam.",
+    "answer_hi": "मीडिया, कोडिंग, डिज़ाइन और संचार जैसे कौशलों का उपयोग करके ऐसा कंटेंट बनाना जो इमाम के लिए मुहब्बत, ज्ञान और अमल को बढ़ावा दे।",
+    "answer_ur": "میڈیا، کوڈنگ، ڈیزائن، اور رابطے جیسے ہنر استعمال کر کے ایسا مواد تیار کرنا جو امام (ع) سے محبت، علم، اور عمل کو فروغ دے۔"
+  },
+  {
+    "question": "Can blockchain or advanced tech play a role?",
+    "category": "Technology & Today’s World",
+    "answer_en": "Yes, secure and decentralized tech like blockchain could help manage transparency and justice in governance under Imam’s rule.",
+    "answer_hi": "हाँ, ब्लॉकचेन जैसी सुरक्षित तकनीक इमाम की हुकूमत में पारदर्शिता और इंसाफ़ सुनिश्चित करने में मदद कर सकती है।",
+    "answer_ur": "جی ہاں، بلاک چین جیسی محفوظ ٹیکنالوجی امام (ع) کی حکومت میں شفافیت اور عدل قائم رکھنے میں مدد دے سکتی ہے۔"
+  },
+  {
+    "question": "Will the digital world support his global mission?",
+    "category": "Technology & Today’s World",
+    "answer_en": "Yes, the digital world allows rapid communication and global awareness, which are vital for spreading Imam’s message.",
+    "answer_hi": "हाँ, डिजिटल दुनिया तेज़ संवाद और वैश्विक जागरूकता प्रदान करती है, जो इमाम के मिशन के लिए अहम है।",
+    "answer_ur": "جی ہاں، ڈیجیٹل دنیا تیز رابطے اور عالمی آگاہی مہیا کرتی ہے، جو امام (ع) کے مشن کے لیے ضروری ہے۔"
+  },
+  {
+    "question": "Does Imam Mahdi (a.s.) guide us through tech indirectly?",
+    "category": "Technology & Today’s World",
+    "answer_en": "It is believed that his guidance can manifest through inspiration, scholars, or events even via modern mediums.",
+    "answer_hi": "ऐसा माना जाता है कि उनकी रहनुमाई इल्हाम, आलिमों या घटनाओं के ज़रिए आधुनिक साधनों में भी हो सकती है।",
+    "answer_ur": "ایسا مانا جاتا ہے کہ امام (ع) کی رہنمائی الہام، علما یا واقعات کے ذریعے جدید ذرائع سے بھی ظاہر ہو سکتی ہے۔"
+  },
+  {
+    "question": "Are there hadiths related to end-time technology?",
+    "category": "Technology & Today’s World",
+    "answer_en": "Some narrations mention swift travel, instant communication, and unusual tools in the end times, which resemble modern tech.",
+    "answer_hi": "कुछ रिवायतें आख़िरी ज़माने में तेज़ यात्रा, तुरंत संवाद और असाधारण साधनों का ज़िक्र करती हैं, जो आधुनिक तकनीक से मिलते-जुलते हैं।",
+    "answer_ur": "کچھ احادیث میں آخری زمانے میں تیز سفر، فوری رابطے اور عجیب آلات کا ذکر ہے، جو موجودہ ٹیکنالوجی سے مشابہ ہیں۔"
+  },
+  {
+    "question": "Can robots or AI be used in his army?",
+    "category": "Technology & Today’s World",
+    "answer_en": "While not explicitly mentioned, any tool that promotes justice and helps his cause could be used wisely, including AI.",
+    "answer_hi": "हालाँकि विशेष रूप से ज़िक्र नहीं है, लेकिन कोई भी उपकरण जो इंसाफ़ और उनके मिशन की सेवा करे, जैसे एआई, उपयोग किया जा सकता है।",
+    "answer_ur": "اگرچہ واضح ذکر نہیں ہے، لیکن جو بھی ذریعہ عدل کو فروغ دے اور مشن کی خدمت کرے، جیسے AI، وہ عقلمندی سے استعمال کیا جا سکتا ہے۔"
+  },
+
+  {
+    "question": "What is the role of women in Imam Mahdi’s (a.s.) mission?",
+    "category": "Women's Role for Imam",
+    "answer_en": "Women play a vital role in education, spiritual support, raising future soldiers, spreading truth, and participating in his movement.",
+    "answer_hi": "महिलाएं शिक्षा, आत्मिक सहयोग, भविष्य के सिपाहियों की परवरिश, हक़ का प्रचार और आंदोलन में भागीदारी जैसे क्षेत्रों में अहम भूमिका निभाती हैं।",
+    "answer_ur": "خواتین تعلیم، روحانی تعاون، مستقبل کے سپاہیوں کی پرورش، حق کی اشاعت، اور امام کے مشن میں بھرپور کردار ادا کرتی ہیں۔"
+  },
+  {
+    "question": "Will women join his army?",
+    "category": "Women's Role for Imam",
+    "answer_en": "Yes, many narrations mention 50 women among the initial 313 companions of Imam Mahdi (a.s.).",
+    "answer_hi": "हाँ, रिवायतों के अनुसार इमाम महदी (अ.स.) के शुरुआती 313 साथियों में 50 महिलाएं भी होंगी।",
+    "answer_ur": "جی ہاں، روایات کے مطابق امام مہدی (ع) کے ابتدائی 313 اصحاب میں 50 خواتین شامل ہوں گی۔"
+  },
+  {
+    "question": "What can women do during his occultation?",
+    "category": "Women's Role for Imam",
+    "answer_en": "They can pray for his reappearance, educate children, support the community, observe hijab, and promote his teachings.",
+    "answer_hi": "वे उनके ज़हूर की दुआ कर सकती हैं, बच्चों को तालीम दे सकती हैं, समाज की सेवा कर सकती हैं, हिजाब का पालन कर सकती हैं और उनके पैग़ाम को फैला सकती हैं।",
+    "answer_ur": "وہ ان کے ظہور کی دعا کر سکتی ہیں، بچوں کو تعلیم دے سکتی ہیں، معاشرے کی خدمت کر سکتی ہیں، حجاب کا اہتمام کر سکتی ہیں، اور امام کے پیغام کو عام کر سکتی ہیں۔"
+  },
+  {
+    "question": "Are there examples of pious women mentioned for Imam Mahdi (a.s.)?",
+    "category": "Women's Role for Imam",
+    "answer_en": "Yes, like Sayyida Nargis (a.s.) — his mother — and companions like Qanita, Nasira, and others who will support him.",
+    "answer_hi": "हाँ, जैसे सैय्यदा नरजिस (स.अ.) — उनकी माता — और साथी महिलाएं जैसे क़ानिता, नसीरा आदि जो उनका साथ देंगी।",
+    "answer_ur": "جی ہاں، جیسے سیدہ نرجس (س) — ان کی والدہ — اور قانطہ، ناصرہ وغیرہ جیسی خواتین جو ان کے ساتھ ہوں گی۔"
+  },
+  {
+    "question": "How can a woman prepare for Imam’s arrival?",
+    "category": "Women's Role for Imam",
+    "answer_en": "By learning religious duties, raising children righteously, staying modest, praying, and living a God-conscious life.",
+    "answer_hi": "धार्मिक ज़िम्मेदारियाँ सीखकर, बच्चों की नेक परवरिश करके, हया से जीवन बिताकर, दुआ और तक़वा से तैयार हो सकती हैं।",
+    "answer_ur": "دینی فرائض سیکھ کر، بچوں کی نیک تربیت کر کے، حیا اور تقویٰ کے ساتھ زندگی گزار کر، امام (ع) کے ظہور کے لیے تیار ہو سکتی ہیں۔"
+  },
+  {
+    "question": "What is the reward of hijab in Ghaibat era?",
+    "category": "Women's Role for Imam",
+    "answer_en": "Observing hijab during occultation is a sign of loyalty to the Imam and brings immense spiritual reward.",
+    "answer_hi": "ग़ैबत के दौर में हिजाब करना इमाम से वफ़ादारी की निशानी है और इससे बहुत सवाब मिलता है।",
+    "answer_ur": "غیبت کے دور میں حجاب کا اہتمام امام (ع) سے وفاداری کی علامت ہے اور اس کا بڑا روحانی اجر ہے۔"
+  },
+  {
+    "question": "Can women spread his message online?",
+    "category": "Women's Role for Imam",
+    "answer_en": "Yes, by sharing authentic knowledge, creating content, and using digital platforms with modesty and sincerity.",
+    "answer_hi": "हाँ, महिलाएं सही जानकारी साझा करके, कंटेंट बनाकर और डिजिटल प्लेटफ़ॉर्म का उपयोग संयम और नीयत के साथ कर सकती हैं।",
+    "answer_ur": "جی ہاں، خواتین مستند علم کو پھیلا کر، مواد تیار کر کے، اور حیا اور خلوص کے ساتھ ڈیجیٹل پلیٹ فارم استعمال کر کے امام (ع) کا پیغام عام کر سکتی ہیں۔"
+  },
+  {
+    "question": "Is it wajib for women to pray for his reappearance?",
+    "category": "Women's Role for Imam",
+    "answer_en": "While not wajib, it is highly recommended and a sign of love, loyalty, and awareness of Imam’s cause.",
+    "answer_hi": "हालाँकि फ़र्ज़ नहीं है, लेकिन ये अत्यंत अनुशंसित है और इमाम से मुहब्बत व वफ़ादारी की निशानी है।",
+    "answer_ur": "اگرچہ واجب نہیں، لیکن یہ بہت مستحب ہے اور امام (ع) سے محبت و وفاداری کی علامت ہے۔"
+  },
+  {
+    "question": "How can mothers raise children for Imam's army?",
+    "category": "Women's Role for Imam",
+    "answer_en": "By instilling Islamic values, teaching love for Ahlulbayt (a.s.), and preparing them for justice, sacrifice, and spirituality.",
+    "answer_hi": "इस्लामी उसूलों की तालीम देकर, अहलुलबैत से मुहब्बत सिखाकर, और इंसाफ़, कुर्बानी व रूहानियत के लिए बच्चों को तैयार करके।",
+    "answer_ur": "اسلامی اقدار سکھا کر، اہل بیت (ع) سے محبت پیدا کر کے، اور عدل، قربانی، و روحانیت کے لیے بچوں کی تربیت کر کے۔"
+  },
+  {
+    "question": "Will women be teachers in Imam's government?",
+    "category": "Women's Role for Imam",
+    "answer_en": "Yes, women will play educational roles, teach morality and faith, and help build a just society.",
+    "answer_hi": "हाँ, महिलाएं शिक्षिका बनेंगी, नैतिकता और ईमान की शिक्षा देंगी और एक न्यायपूर्ण समाज बनाने में मदद करेंगी।",
+    "answer_ur": "جی ہاں، خواتین تعلیمی میدان میں کام کریں گی، اخلاق و ایمان کی تعلیم دیں گی، اور عادل معاشرہ قائم کرنے میں مدد کریں گی۔"
+  },
+  {
+    "question": "What qualities are needed in women to support Imam?",
+    "category": "Women's Role for Imam",
+    "answer_en": "Faith, modesty, knowledge, patience, courage, loyalty, and a deep desire to serve truth and justice.",
+    "answer_hi": "ईमान, हया, इल्म, सब्र, हिम्मत, वफ़ादारी और हक़ व इंसाफ़ की सेवा की तड़प।",
+    "answer_ur": "ایمان، حیا، علم، صبر، بہادری، وفاداری، اور حق و عدل کی خدمت کی شدید خواہش۔"
+  },
+
+  {
+    "question": "Who is Imam Mahdi (a.s.) in Islam?",
+    "category": "Common Non-Muslim Questions",
+    "answer_en": "Imam Mahdi (a.s.) is the awaited savior in Islam who will appear to establish justice, peace, and truth across the world.",
+    "answer_hi": "इमाम महदी (अ.स.) इस्लाम में प्रतीक्षित मसीहा हैं जो दुनिया में न्याय, शांति और सच्चाई स्थापित करेंगे।",
+    "answer_ur": "امام مہدی (ع) اسلام میں منتظر نجات دہندہ ہیں جو دنیا میں عدل، امن اور حق قائم کریں گے۔"
+  },
+  {
+    "question": "Is Imam Mahdi mentioned in Christianity?",
+    "category": "Common Non-Muslim Questions",
+    "answer_en": "While the name 'Mahdi' is not used, many Christians believe in a messianic figure similar to Mahdi who will bring justice.",
+    "answer_hi": "हालाँकि 'महदी' नाम नहीं है, लेकिन ईसाई भी एक मसीहा में विश्वास करते हैं जो न्याय लाएगा।",
+    "answer_ur": "اگرچہ 'مہدی' کا نام نہیں آتا، لیکن عیسائی بھی ایک مسیحا پر ایمان رکھتے ہیں جو عدل لائے گا۔"
+  },
+  {
+    "question": "Do Jews have a concept of Mahdi?",
+    "category": "Common Non-Muslim Questions",
+    "answer_en": "Yes, Jews await a Messiah who will lead the righteous and bring peace — a concept similar to Imam Mahdi (a.s.).",
+    "answer_hi": "हाँ, यहूदी एक मसीहा की प्रतीक्षा करते हैं जो धर्मियों का नेतृत्व करेगा और शांति लाएगा — यह इमाम महदी (अ.स.) के विचार से मिलता-जुलता है।",
+    "answer_ur": "جی ہاں، یہودی بھی ایک نجات دہندہ کے منتظر ہیں جو نیک لوگوں کی قیادت کرے گا — جو امام مہدی (ع) کے تصور سے مشابہ ہے۔"
+  },
+  {
+    "question": "Is Imam Mahdi a Prophet?",
+    "category": "Common Non-Muslim Questions",
+    "answer_en": "No, he is not a Prophet. He is a divinely appointed leader (Imam) from the lineage of Prophet Muhammad (s.a.w.).",
+    "answer_hi": "नहीं, वे नबी नहीं हैं। वे पैग़ंबर मुहम्मद (स.अ.) की नस्ल से एक ईश्वरीय नियुक्त इमाम हैं।",
+    "answer_ur": "نہیں، وہ نبی نہیں ہیں بلکہ نبی محمد (ص) کی نسل سے ایک الٰہی امام ہیں۔"
+  },
+  {
+    "question": "Why do Shia Muslims believe Imam Mahdi is alive?",
+    "category": "Common Non-Muslim Questions",
+    "answer_en": "Shia traditions affirm that Imam Mahdi (a.s.) was born and is in occultation by Allah's will until the right time to reappear.",
+    "answer_hi": "शिया परंपराओं के अनुसार, इमाम महदी (अ.स.) का जन्म हो चुका है और वे अल्लाह की मर्ज़ी से ग़ैबत में हैं जब तक उनका ज़हूर न हो।",
+    "answer_ur": "شیعہ روایات کے مطابق امام مہدی (ع) پیدا ہو چکے ہیں اور اللہ کے حکم سے غیبت میں ہیں یہاں تک کہ ان کا ظہور ہو۔"
+  },
+  {
+    "question": "Is he similar to Messiah in other religions?",
+    "category": "Common Non-Muslim Questions",
+    "answer_en": "Yes, Imam Mahdi (a.s.) resembles the concept of the awaited savior or messiah in Christianity, Judaism, and other traditions.",
+    "answer_hi": "हाँ, इमाम महदी (अ.स.) का विचार ईसाई, यहूदी और अन्य धर्मों के मसीहा की धारणा से मिलता-जुलता है।",
+    "answer_ur": "جی ہاں، امام مہدی (ع) کا تصور عیسائیت، یہودیت، اور دیگر مذاہب کے مسیحا کے تصور سے مشابہ ہے۔"
+  },
+  {
+    "question": "Can non-Muslims support Imam Mahdi (a.s.)?",
+    "category": "Common Non-Muslim Questions",
+    "answer_en": "Yes, anyone who seeks justice, truth, and peace can support and follow Imam Mahdi (a.s.).",
+    "answer_hi": "हाँ, जो भी इंसाफ़, सच्चाई और अमन चाहता है, वो इमाम महदी (अ.स.) का समर्थन कर सकता है।",
+    "answer_ur": "جی ہاں، جو بھی عدل، حق، اور امن کا خواہاں ہے وہ امام مہدی (ع) کی حمایت کر سکتا ہے۔"
+  },
+  {
+    "question": "Will Imam Mahdi rule the entire world?",
+    "category": "Common Non-Muslim Questions",
+    "answer_en": "Yes, his divinely guided rule will eventually cover the entire globe, establishing peace and justice.",
+    "answer_hi": "हाँ, उनका ईश्वरीय नेतृत्व पूरी दुनिया में फैलेगा और इंसाफ़ व अमन को क़ायम करेगा।",
+    "answer_ur": "جی ہاں، ان کی الٰہی حکومت پوری دنیا میں پھیلے گی اور عدل و امن قائم کرے گی۔"
+  },
+  {
+    "question": "What do other religions say about a savior?",
+    "category": "Common Non-Muslim Questions",
+    "answer_en": "Many religions await a savior — Christianity awaits Jesus, Judaism awaits a Messiah, Hindus await Kalki Avatar.",
+    "answer_hi": "अनेक धर्म एक उद्धारकर्ता की प्रतीक्षा करते हैं — ईसाई यीशु मसीह, यहूदी मसीहा, हिंदू कल्कि अवतार का इंतज़ार करते हैं।",
+    "answer_ur": "بہت سے مذاہب ایک نجات دہندہ کے منتظر ہیں — عیسائی حضرت عیسیٰ، یہودی مسیحا، ہندو کلکی اوتار کے منتظر ہیں۔"
+  },
+  {
+    "question": "Is the concept of Mahdi only in Shia Islam?",
+    "category": "Common Non-Muslim Questions",
+    "answer_en": "No, the belief in Mahdi exists in both Sunni and Shia traditions, though with some differences in details.",
+    "answer_hi": "नहीं, महदी पर विश्वास सुन्नी और शिया दोनों में है, हालांकि विवरण में कुछ भिन्नता हो सकती है।",
+    "answer_ur": "نہیں، مہدی پر ایمان اہل سنت اور اہل تشیع دونوں میں موجود ہے، اگرچہ تفصیلات میں فرق ہو سکتا ہے۔"
+  },
+  {
+    "question": "Why is his name hidden?",
+    "category": "Common Non-Muslim Questions",
+    "answer_en": "His name is kept hidden as a divine protection until his reappearance to avoid harm and premature rebellion.",
+    "answer_hi": "उनका नाम अल्लाह की हिफ़ाज़त के तहत छिपाया गया है ताकि उन्हें नुक़सान या जल्दबाज़ी में विद्रोह से बचाया जा सके।",
+    "answer_ur": "ان کا نام الٰہی حفاظت کے تحت پوشیدہ رکھا گیا ہے تاکہ ظہور سے پہلے کسی نقصان یا جلد بازی کے فتنے سے بچایا جا سکے۔"
+  }
+]
